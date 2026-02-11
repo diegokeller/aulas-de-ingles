@@ -55,32 +55,32 @@ Each lesson should follow this hierarchy:
 - Format: `https://images.unsplash.com/photo-[ID]?w=300&h=200&fit=crop`
 - Add attribution: `*Images: [Unsplash](https://unsplash.com) (free to use)*`
 
-### Disambiguation Notes
+### Slangs and Idioms
 
-When an English word has multiple meanings relevant to learners, add a disambiguation section explaining both uses with examples:
+Every lesson **must** include a section with 2-3 related slangs or idiomatic expressions to enrich the student's natural vocabulary.
 
-```
-### Desambiguação de "Word"
-
-1. **Meaning 1 (noun):** Explanation in Portuguese.
-   - *Example: English sentence here.*
-
-2. **Meaning 2 (verb):** Explanation in Portuguese.
-   - *Example: English sentence here.*
-```
+- Provide the idiom/slang in English.
+- Explain the meaning or origin in Portuguese.
+- Provide a short, practical example sentence in English.
+- Example:
+  ```
+  ### To bite the dust
+  Significa fracassar ou quebrar.
+  - *Example: My old vacuum cleaner finally bit the dust.*
+  ```
 
 ## Exercise Types
 
 ### 1. Matching Exercises
 
-Connect concepts with their descriptions. Use tables:
+Connect concepts with their descriptions by drawing lines. Use tables with a wide, empty middle column to provide space:
 
-```
-| Item | Answer | Description |
-|------|--------|-------------|
-|  X   | (___) | Description A |
-|  Y   | (___) | Description B |
-```
+| Item | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+|------|:-------------------------------------------------------------:|-------------|
+|  X   |                                                               | Description A |
+|  Y   |                                                               | Description B |
+
+> **Note:** Use enough `&nbsp;` or spaces in the header of the middle column to ensure it remains wide enough for lines to be drawn when printed.
 
 ### 2. Fill-in-the-Blank
 
@@ -180,11 +180,12 @@ Examples:
 1. **Goals** - What students will learn
 2. **Vocabulary with images** - Visual introduction
 3. **Disambiguation** - Clarify confusing terms (if needed)
-4. **Exercise 1** - Recognition/matching (easier)
-5. **Exercise 2** - Application/fill-in-blank (medium)
-6. **Exercise 3** - Production/personal response (harder)
-7. **Grammar note** - Light explanation of patterns observed
-8. **Conversation practice** - Real-world application
+4. **Slangs and Idioms** - Natural expressions related to the topic
+5. **Exercise 1** - Recognition/matching (easier)
+6. **Exercise 2** - Application/fill-in-blank (medium)
+7. **Exercise 3** - Production/personal response (harder)
+8. **Grammar note** - Light explanation of patterns observed
+9. **Conversation practice** - Real-world application
 
 ---
 

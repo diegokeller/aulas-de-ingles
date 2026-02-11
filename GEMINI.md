@@ -78,8 +78,8 @@ Connect concepts with their descriptions. Use tables:
 ```
 | Item | Answer | Description |
 |------|--------|-------------|
-| 1. X | (___) | Description A |
-| 2. Y | (___) | Description B |
+|  X   | (___) | Description A |
+|  Y   | (___) | Description B |
 ```
 
 ### 2. Fill-in-the-Blank

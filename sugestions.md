@@ -1,1 +1,3 @@
-Idioms and slangs
+- Idioms and slangs
+- Travel and conversations with locals
+- home routines

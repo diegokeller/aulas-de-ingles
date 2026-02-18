@@ -118,6 +118,27 @@ Add dialogue prompts or role-play scenarios:
 **Student A:** Compare it to yesterday's weather.
 ```
 
+### 5. Dictation Exercises
+
+Include sentences or short dialogues for listening practice. These will be converted to audio for students.
+
+**Format A: Fill-in-the-blanks**
+Provide sentences with one or more blanks to be filled while listening.
+
+```
+1. I usually ________ to the ________ in the morning.
+2. She ________ ________ because it was raining.
+```
+
+**Format B: Comprehension Questions**
+Ask questions based on the context of the dictated sentence or dialogue.
+
+```
+**Audio:** "I'm going to the supermarket to buy some milk and bread."
+**Question:** Where is the speaker going and what do they need to buy?
+**Answer:** ____________________________________________________
+```
+
 ## Grammar Approach
 
 - **Light and contextual** - introduce grammar as it naturally appears in the topic
@@ -184,8 +205,9 @@ Examples:
 5. **Exercise 1** - Recognition/matching (easier)
 6. **Exercise 2** - Application/fill-in-blank (medium)
 7. **Exercise 3** - Production/personal response (harder)
-8. **Grammar note** - Light explanation of patterns observed
-9. **Conversation practice** - Real-world application
+8. **Dictation Exercise** - Listening and writing practice
+9. **Grammar note** - Light explanation of patterns observed
+10. **Conversation practice** - Real-world application
 
 ---
 

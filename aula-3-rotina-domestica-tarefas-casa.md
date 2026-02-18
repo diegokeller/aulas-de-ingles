@@ -238,25 +238,25 @@ By 4 PM, the house is clean and tidy. They **usually** go to the park or watch a
 Answer the questions based on the text.
 
 1. Why is the Miller family busy on Saturdays?
-_______________________________________________________________________________
+*They are busy because Saturday is the day to do the housework, as everyone works or goes to school during the week.*
 
 2. What does Mr. Miller do after breakfast?
-_______________________________________________________________________________
+*He usually takes out the trash and waters the plants in the garden.*
 
 3. How often does Mrs. Miller do the laundry?
-_______________________________________________________________________________
+*She always does the laundry on Saturday mornings.*
 
 4. Why does Mrs. Miller vacuum the carpets every Saturday?
-_______________________________________________________________________________
+*Because they have a cat, and there is fur everywhere.*
 
 5. What are Leo's chores on Saturdays?
-_______________________________________________________________________________
+*He has to make his bed, tidy up his room, and mop the floor.*
 
 6. Who washes the dishes after lunch?
-_______________________________________________________________________________
+*Leo and his father wash the dishes.*
 
 7. What does the Miller family usually do after the housework is finished?
-_______________________________________________________________________________
+*They usually go to the park or watch a movie to relax.*
 
 8. Do you agree that sharing chores makes the work "faster and more fun"? Why?
-_______________________________________________________________________________
+*Yes, I agree, because sharing the responsibility makes the tasks lighter and allows the family to spend time together while working.*

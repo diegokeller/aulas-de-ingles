@@ -22,13 +22,12 @@
 
 ### Desambiguação de "Season"
 
-A palavra em inglês **"Season"** possui dois significados principais que são relevantes no estudo da língua:
+A palavra em inglês **"Season"** possui dois significados principais:
 
-1. **Estação do Ano (Season - substantivo):** Refere-se a uma das quatro divisões do ano (Primavera, Verão, Outono, Inverno) que são caracterizadas por variações climáticas. É o sentido explorado nesta lição.
-   - *Example: Summer is my favorite season.*
-
-2. **Temperar/Sazonar (To Season - verbo):** Refere-se ao ato de adicionar sal, pimenta ou outras especiarias à comida para melhorar seu sabor.
-   - *Example: Don't forget to season the meat before cooking.*
+| Term | Explanation and Examples |
+|------|--------------------------|
+| **Season** (Substantivo) | Refere-se a uma das quatro divisões do ano (Primavera, Verão, etc.).<br>*Example: Summer is my favorite season.* |
+| **To Season** (Verbo) | Refere-se ao ato de temperar alimentos com sal, pimenta, etc.<br>*Example: Don't forget to season the meat.* |
 
 > **Nota:** No contexto de clima e tempo, "season" sempre será usado no sentido de Estação do Ano. O ato de temperar alimentos, apesar de usar a mesma palavra, é um verbo e tem um significado completamente diferente.
 
@@ -238,6 +237,15 @@ Write the time you usually do these activities. Use complete sentences.
 | Have lunch | |
 | Finish work/school | |
 | Go to bed | |
+
+---
+
+## Slangs and Idioms (Gírias e Expressões)
+
+| Slang / Idiom | Meaning and Example |
+|---------------|---------------------|
+| **Under the weather** | Significa sentir-se um pouco doente ou indisposto.<br>*Example: I'm feeling a bit **under the weather** today.* |
+| **A breeze** | Usado para descrever algo que é muito fácil de fazer.<br>*Example: This English exercise was **a breeze**!* |
 
 ---
 

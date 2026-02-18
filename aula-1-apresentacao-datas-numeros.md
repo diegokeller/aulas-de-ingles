@@ -229,6 +229,15 @@ _______________________________________________________________________________
 
 ---
 
+## Slangs and Idioms (Gírias e Expressões)
+
+| Slang / Idiom | Meaning and Example |
+|---------------|---------------------|
+| **To be born and bred** | Significa ter nascido e crescido em um lugar.<br>*Example: I was **born and bred** in São Paulo.* |
+| **To make a long story short** | Usado para resumir uma história longa.<br>*Example: **To make a long story short**, we met at a party.* |
+
+---
+
 ## 5. Conversation Practice (Role Play)
 
 Prepare-se para conversar com um colega ou professor.

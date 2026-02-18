@@ -1,3 +1,3 @@
-- Idioms and slangs
-- Travel and conversations with locals
-- home routines
+- [x] Idioms and slangs
+- [ ] Travel and conversations with locals
+- [x] home routines

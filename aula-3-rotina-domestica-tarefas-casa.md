@@ -31,13 +31,10 @@
 
 Muitos alunos confundem quando usar **"Do"** ou **"Make"**. Uma regra geral é:
 
-1. **Do (Ação/Processo):** Usado para tarefas repetitivas ou obrigações que não criam necessariamente um objeto novo.
-   - *Example: I have to **do** the dishes every night.*
-   - *Example: Who is going to **do** the laundry?*
-
-2. **Make (Criação/Resultado):** Usado quando você cria algo ou produz um resultado.
-   - *Example: Can you **make** dinner tonight?*
-   - *Example: Please **make** your bed before leaving.*
+| Term | Explanation and Examples |
+|------|--------------------------|
+| **Do** (Ação/Processo) | Usado para tarefas repetitivas ou obrigações que não criam necessariamente um objeto novo.<br>*Example: I have to **do** the dishes every night.* |
+| **Make** (Criação/Resultado) | Usado quando você cria algo ou produz um resultado.<br>*Example: Can you **make** dinner tonight?* |
 
 ---
 
@@ -201,17 +198,11 @@ Answer the questions about your routine using frequency adverbs or time expressi
 
 ## Slangs and Idioms (Gírias e Expressões)
 
-### 1. To bite the dust
-Famosa na música do **Queen**, significa **fracassar** ou **quebrar**.
-- *Example: My old vacuum cleaner finally **bit the dust**.*
-
-### 2. A clean sweep
-Significa uma **vitória total** ou uma **mudança completa**.
-- *Example: Our team won every game; it was a **clean sweep**!*
-
-### 3. To hit the roof
-Usada para quando alguém fica **extremamente bravo**.
-- *Example: My dad **hit the roof** when he saw the messy kitchen.*
+| Slang / Idiom | Meaning and Example |
+|---------------|---------------------|
+| **To bite the dust** | Significa **fracassar** ou **quebrar**.<br>*Example: My old vacuum cleaner finally **bit the dust**.* |
+| **A clean sweep** | Significa uma **vitória total** ou uma **mudança completa**.<br>*Example: It was a **clean sweep**!* |
+| **To hit the roof** | Usada para quando alguém fica **extremamente bravo**.<br>*Example: My dad **hit the roof**.* |
 
 ---
 

@@ -13,27 +13,24 @@
         }
         @media print {
             .no-print { display: none; }
-            body { padding: 0; margin: 0; }
-            .container { width: 100%; max-width: none; border: none; }
+            @page { margin: 0; }
+            body { padding: 2cm !important; margin: 0 !important; }
+            .container { width: 100%; max-width: none; border: none; box-shadow: none; padding: 0 !important; }
         }
-        .dots {
-            color: #6c757d;
-        }
-        .writing-lines {
-            line-height: 2.5;
-            color: #dee2e6;
+        .writing-line {
+            border: 0;
             border-bottom: 1px solid #dee2e6;
-            display: block;
-            min-height: 1.5em;
+            margin: 3rem 0 0.5rem 0;
+        }
+        .inline-blank {
+            display: inline-block;
+            min-width: 120px;
+            border-bottom: 1px solid #212529;
+            margin: 0 5px;
+            vertical-align: bottom;
         }
         .table th {
             background-color: #f8f9fa !important;
-        }
-        .dictation-blank {
-            display: inline-block;
-            min-width: 150px;
-            border-bottom: 1px solid #212529;
-            text-align: center;
         }
     </style>
 </head>
@@ -60,31 +57,31 @@
                 </tr>
             </thead>
             <tbody>
-                <tr><td><strong>Meeting</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">I have a meeting at 10 AM.</td></tr>
-                <tr><td><strong>Deadline</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">The deadline for the project is tomorrow.</td></tr>
-                <tr><td><strong>Staff</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">Our staff is very professional.</td></tr>
-                <tr><td><strong>Manager</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">Talk to the manager if you have questions.</td></tr>
-                <tr><td><strong>CEO</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">The CEO is visiting the office today.</td></tr>
-                <tr><td><strong>Contract</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">Please sign the contract.</td></tr>
-                <tr><td><strong>Report</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">I need to finish the monthly report.</td></tr>
-                <tr><td><strong>Feedback</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">Your feedback is very important.</td></tr>
-                <tr><td><strong>Profit</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">The company made a large profit this year.</td></tr>
-                <tr><td><strong>Budget</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">We need to respect the department budget.</td></tr>
-                <tr><td><strong>Salary</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">My salary is paid every month.</td></tr>
-                <tr><td><strong>Office</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">I work in a modern office.</td></tr>
-                <tr><td><strong>Colleague</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">She is a very helpful colleague.</td></tr>
-                <tr><td><strong>Workflow</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">We need to improve our daily workflow.</td></tr>
-                <tr><td><strong>Company</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">This company was founded in 2010.</td></tr>
-                <tr><td><strong>Department</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">I work in the Sales department.</td></tr>
-                <tr><td><strong>Training</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">We have a training session on Monday.</td></tr>
-                <tr><td><strong>Promotion</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">He got a promotion last month.</td></tr>
-                <tr><td><strong>To Schedule</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">Let's schedule a call for Tuesday.</td></tr>
-                <tr><td><strong>To Reschedule</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">I need to reschedule our appointment.</td></tr>
-                <tr><td><strong>To Cancel</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">I'm sorry, I have to cancel the meeting.</td></tr>
-                <tr><td><strong>Agenda</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">What's on the agenda for today?</td></tr>
-                <tr><td><strong>Minutes</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">Who is taking the minutes?</td></tr>
-                <tr><td><strong>To-do list</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">I have five items on my to-do list.</td></tr>
-                <tr><td><strong>Performance Review</strong></td><td class="dots">....................</td><td class="fst-italic text-muted small">My performance review is tomorrow.</td></tr>
+                <tr><td><strong>Meeting</strong></td><td></td><td class="fst-italic text-muted small">I have a meeting at 10 AM.</td></tr>
+                <tr><td><strong>Deadline</strong></td><td></td><td class="fst-italic text-muted small">The deadline for the project is tomorrow.</td></tr>
+                <tr><td><strong>Staff</strong></td><td></td><td class="fst-italic text-muted small">Our staff is very professional.</td></tr>
+                <tr><td><strong>Manager</strong></td><td></td><td class="fst-italic text-muted small">Talk to the manager if you have questions.</td></tr>
+                <tr><td><strong>CEO</strong></td><td></td><td class="fst-italic text-muted small">The CEO is visiting the office today.</td></tr>
+                <tr><td><strong>Contract</strong></td><td></td><td class="fst-italic text-muted small">Please sign the contract.</td></tr>
+                <tr><td><strong>Report</strong></td><td></td><td class="fst-italic text-muted small">I need to finish the monthly report.</td></tr>
+                <tr><td><strong>Feedback</strong></td><td></td><td class="fst-italic text-muted small">Your feedback is very important.</td></tr>
+                <tr><td><strong>Profit</strong></td><td></td><td class="fst-italic text-muted small">The company made a large profit this year.</td></tr>
+                <tr><td><strong>Budget</strong></td><td></td><td class="fst-italic text-muted small">We need to respect the department budget.</td></tr>
+                <tr><td><strong>Salary</strong></td><td></td><td class="fst-italic text-muted small">My salary is paid every month.</td></tr>
+                <tr><td><strong>Office</strong></td><td></td><td class="fst-italic text-muted small">I work in a modern office.</td></tr>
+                <tr><td><strong>Colleague</strong></td><td></td><td class="fst-italic text-muted small">She is a very helpful colleague.</td></tr>
+                <tr><td><strong>Workflow</strong></td><td></td><td class="fst-italic text-muted small">We need to improve our daily workflow.</td></tr>
+                <tr><td><strong>Company</strong></td><td></td><td class="fst-italic text-muted small">This company was founded in 2010.</td></tr>
+                <tr><td><strong>Department</strong></td><td></td><td class="fst-italic text-muted small">I work in the Sales department.</td></tr>
+                <tr><td><strong>Training</strong></td><td></td><td class="fst-italic text-muted small">We have a training session on Monday.</td></tr>
+                <tr><td><strong>Promotion</strong></td><td></td><td class="fst-italic text-muted small">He got a promotion last month.</td></tr>
+                <tr><td><strong>To Schedule</strong></td><td></td><td class="fst-italic text-muted small">Let's schedule a call for Tuesday.</td></tr>
+                <tr><td><strong>To Reschedule</strong></td><td></td><td class="fst-italic text-muted small">I need to reschedule our appointment.</td></tr>
+                <tr><td><strong>To Cancel</strong></td><td></td><td class="fst-italic text-muted small">I'm sorry, I have to cancel the meeting.</td></tr>
+                <tr><td><strong>Agenda</strong></td><td></td><td class="fst-italic text-muted small">What's on the agenda for today?</td></tr>
+                <tr><td><strong>Minutes</strong></td><td></td><td class="fst-italic text-muted small">Who is taking the minutes?</td></tr>
+                <tr><td><strong>To-do list</strong></td><td></td><td class="fst-italic text-muted small">I have five items on my to-do list.</td></tr>
+                <tr><td><strong>Performance Review</strong></td><td></td><td class="fst-italic text-muted small">My performance review is tomorrow.</td></tr>
             </tbody>
         </table>
 
@@ -158,16 +155,16 @@
         <div class="text-center fw-bold p-2 bg-light border mb-3">
             Deadline, Colleague, Feedback, Budget, CEO, Salary, Meeting, Promotion
         </div>
-        <table class="table table-bordered">
+        <table class="table table-bordered align-middle text-center">
             <tbody>
-                <tr><td class="dots" style="width: 30%;">....................</td><td>A person you work with.</td></tr>
-                <tr><td class="dots">....................</td><td>The latest time or date by which something should be completed.</td></tr>
-                <tr><td class="dots">....................</td><td>Information or comments about a person's performance.</td></tr>
-                <tr><td class="dots">....................</td><td>The amount of money available for a specific purpose.</td></tr>
-                <tr><td class="dots">....................</td><td>The highest-ranking person in a company.</td></tr>
-                <tr><td class="dots">....................</td><td>A fixed regular payment made by an employer to an employee.</td></tr>
-                <tr><td class="dots">....................</td><td>An assembly of people for a formal discussion.</td></tr>
-                <tr><td class="dots">....................</td><td>An advancement in rank or position within a company.</td></tr>
+                <tr><td style="width: 30%; height: 40px;"></td><td class="text-start">A person you work with.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">The latest time or date by which something should be completed.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">Information or comments about a person's performance.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">The amount of money available for a specific purpose.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">The highest-ranking person in a company.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">A fixed regular payment made by an employer to an employee.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">An assembly of people for a formal discussion.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">An advancement in rank or position within a company.</td></tr>
             </tbody>
         </table>
 
@@ -190,54 +187,60 @@
         <h3 class="h5 mt-4">Exercise 2: Fill-in-the-Blank</h3>
         <p>Use <strong>Some</strong>, <strong>Any</strong>, <strong>Much</strong> ou <strong>Many</strong>.</p>
         <ol class="list-group list-group-numbered list-group-flush">
-            <li class="list-group-item">We don't have <span class="dots">................................</span> meetings scheduled for tomorrow.</li>
-            <li class="list-group-item">Is there <span class="dots">................................</span> training available for new employees?</li>
-            <li class="list-group-item">How <span class="dots">................................</span> work did you finish this morning?</li>
-            <li class="list-group-item">I need <span class="dots">................................</span> feedback on my latest report.</li>
-            <li class="list-group-item">There aren't <span class="dots">................................</span> colleagues in the office today.</li>
+            <li class="list-group-item">We don't have <span class="inline-blank"></span> meetings scheduled for tomorrow.</li>
+            <li class="list-group-item">Is there <span class="inline-blank"></span> training available for new employees?</li>
+            <li class="list-group-item">How <span class="inline-blank"></span> work did you finish this morning?</li>
+            <li class="list-group-item">I need <span class="inline-blank"></span> feedback on my latest report.</li>
+            <li class="list-group-item">There aren't <span class="inline-blank"></span> colleagues in the office today.</li>
         </ol>
 
         <h3 class="h5 mt-5">Exercise 3: Personal Response</h3>
-        <p><strong>1. What is your current job and what are your main tasks?</strong></p>
-        <div class="writing-lines mb-4">................................................................................................................................................................<br>................................................................................................................................................................<br>................................................................................................................................................................</div>
+        <div class="mb-3">
+            <p><strong>1. What is your current job and what are your main tasks?</strong></p>
+            <hr class="writing-line"><hr class="writing-line"><hr class="writing-line">
+        </div>
 
-        <p><strong>2. What are your goals for next week?</strong></p>
-        <div class="writing-lines mb-4">................................................................................................................................................................<br>................................................................................................................................................................<br>................................................................................................................................................................</div>
+        <div class="mb-3">
+            <p><strong>2. What are your goals for next week?</strong></p>
+            <hr class="writing-line"><hr class="writing-line"><hr class="writing-line">
+        </div>
 
-        <p><strong>3. How much time do you spend in meetings every day?</strong></p>
-        <div class="writing-lines mb-4">................................................................................................................................................................<br>................................................................................................................................................................<br>................................................................................................................................................................</div>
+        <div class="mb-3">
+            <p><strong>3. How much time do you spend in meetings every day?</strong></p>
+            <hr class="writing-line"><hr class="writing-line"><hr class="writing-line">
+        </div>
 
         <h2 class="h4 mt-5 border-bottom pb-1">Exercise 4: Dictation</h2>
         <p><em>"Listen to the audio provided by your teacher and fill in the blanks with the words you learned."</em></p>
         
         <div class="lh-lg">
-            <p><strong>1.</strong> Hi, I need to <span class="dictation-blank"></span> our 2 PM <span class="dictation-blank"></span>. I have a problem with the <span class="dictation-blank"></span>.</p>
-            <p><strong>2.</strong> No problem. Does that change the <span class="dictation-blank"></span> for the final <span class="dictation-blank"></span>?</p>
-            <p><strong>3.</strong> Yes, it's now next Friday. I need some more time to get the final <span class="dictation-blank"></span> from the <span class="dictation-blank"></span>.</p>
-            <p><strong>4.</strong> Understood. Let's send the new <span class="dictation-blank"></span> <span class="dictation-blank"></span>.</p>
+            <p><strong>1.</strong> Hi, I need to <span class="inline-blank"></span> our 2 PM <span class="inline-blank"></span>. I have a problem with the <span class="inline-blank"></span>.</p>
+            <p><strong>2.</strong> No problem. Does that change the <span class="inline-blank"></span> for the final <span class="inline-blank"></span>?</p>
+            <p><strong>3.</strong> Yes, it's now next Friday. I need some more time to get the final <span class="inline-blank"></span> from the <span class="inline-blank"></span>.</p>
+            <p><strong>4.</strong> Understood. Let's send the new <span class="inline-blank"></span> <span class="inline-blank"></span>.</p>
         </div>
 
         <h3 class="h5 mt-5">Exercise 5: Sentence Scramble</h3>
         <p>Coloque as palavras em ordem para formar frases corretas.</p>
         
-        <div class="mb-4">
+        <div class="mb-3">
             <p><strong>1.</strong> meeting / don't / any / tomorrow / have / we / .</p>
-            <div class="writing-lines">................................................................................................................................................................</div>
+            <hr class="writing-line">
         </div>
 
-        <div class="mb-4">
+        <div class="mb-3">
             <p><strong>2.</strong> feedback / report / my / I / need / on / some / .</p>
-            <div class="writing-lines">................................................................................................................................................................</div>
+            <hr class="writing-line">
         </div>
 
-        <div class="mb-4">
+        <div class="mb-3">
             <p><strong>3.</strong> the / deadline / tomorrow / for / is / project / the / .</p>
-            <div class="writing-lines">................................................................................................................................................................</div>
+            <hr class="writing-line">
         </div>
 
-        <div class="mb-4">
+        <div class="mb-3">
             <p><strong>4.</strong> got / promotion / month / a / colleague / my / last / .</p>
-            <div class="writing-lines">................................................................................................................................................................</div>
+            <hr class="writing-line">
         </div>
 
         <h3 class="h5 mt-5">Exercise 6: Conversation</h3>
@@ -249,20 +252,30 @@
             <p class="mb-0">Last Monday, my <strong>manager</strong> called a <strong>meeting</strong> to talk about a new project. Our <strong>company</strong> has a big <strong>client</strong> in the technology sector, and we need to deliver a complete <strong>report</strong> by the end of the month. The <strong>deadline</strong> is very tight, so we need to improve our <strong>workflow</strong> to be more efficient. I have a lot of <strong>work</strong> to do, but my <strong>colleagues</strong> are helping me. We discussed the <strong>budget</strong> and agreed that it is a <strong>win-win situation</strong> for everyone. My manager wants me to send the first draft <strong>ASAP</strong> so he can give me some <strong>feedback</strong>.</p>
         </div>
 
-        <p><strong>1. Who called the meeting last Monday?</strong></p>
-        <div class="writing-lines mb-3">................................................................................................................................................................</div>
+        <div class="mb-4">
+            <p><strong>1. Who called the meeting last Monday?</strong></p>
+            <hr class="writing-line">
+        </div>
 
-        <p><strong>2. What does the company need to deliver by the end of the month?</strong></p>
-        <div class="writing-lines mb-3">................................................................................................................................................................</div>
+        <div class="mb-4">
+            <p><strong>2. What does the company need to deliver by the end of the month?</strong></p>
+            <hr class="writing-line">
+        </div>
 
-        <p><strong>3. Why does the team need to improve their workflow?</strong></p>
-        <div class="writing-lines mb-3">................................................................................................................................................................</div>
+        <div class="mb-4">
+            <p><strong>3. Why does the team need to improve their workflow?</strong></p>
+            <hr class="writing-line">
+        </div>
 
-        <p><strong>4. What did the team discuss and agree on?</strong></p>
-        <div class="writing-lines mb-3">................................................................................................................................................................</div>
+        <div class="mb-4">
+            <p><strong>4. What did the team discuss and agree on?</strong></p>
+            <hr class="writing-line">
+        </div>
 
-        <p><strong>5. When does the manager want the first draft?</strong></p>
-        <div class="writing-lines mb-3">................................................................................................................................................................</div>
+        <div class="mb-4">
+            <p><strong>5. When does the manager want the first draft?</strong></p>
+            <hr class="writing-line">
+        </div>
     </div>
 </body>
 </html>

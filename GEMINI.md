@@ -19,7 +19,9 @@ This project contains English lesson materials for **intermediate level** studen
   - Font size: **12pt** for optimal reading on A4 paper.
   - Colors: Use Bootstrap defaults (text-dark, bg-light, etc.) with minimal custom CSS.
 - **Print Optimization:** 
-  - Use dots (`....................`) for writing spaces.
+  - Use `<hr class="writing-line">` for multi-line writing spaces.
+  - Use `<span class="inline-blank"></span>` for inline fill-in-the-blanks.
+  - Avoid using dots (`....`) for responsive design and consistent printing.
   - Ensure tables and sections do not break awkwardly across pages.
 
 ---
@@ -29,7 +31,7 @@ This project contains English lesson materials for **intermediate level** studen
 ### Structure
 Each lesson must follow this hierarchy:
 1. **Goals:** 2-3 objectives mixing Portuguese explanation with English key terms.
-2. **Vocabulary:** Single-column table (Term, Translation Dots, Example Sentence).
+2. **Vocabulary:** Single-column table (Term, Empty Translation Column, Example Sentence).
 3. **Disambiguation:** Comparison of similar terms (e.g., *Job* vs. *Work*).
 4. **Slangs and Idioms:** Table with expressions and example sentences.
 5. **Famous Abbreviations:** List of common professional/topic acronyms.
@@ -50,13 +52,13 @@ Each lesson must follow this hierarchy:
 
 ## Exercise Types (Standard Sequence)
 
-1. **Exercise 1 (Vocabulary Selection):** Word bank at the top for students to match terms to descriptions.
-2. **Exercise 2 (Grammar Practice):** Fill-in-the-blanks focused on the grammar topic.
-3. **Exercise 3 (Personal Response):** Questions followed by 3 writing lines (dots) each.
-4. **Exercise 4 (Dictation):** Numerated fill-in-the-blanks synchronized with the teacher's transcript.
-5. **Exercise 5 (Sentence Scramble):** Reorder words to form correct sentences.
+1. **Exercise 1 (Vocabulary Selection):** Word bank at the top for students to match terms to descriptions. Empty cells for answers.
+2. **Exercise 2 (Grammar Practice):** Fill-in-the-blanks using `<span class="inline-blank"></span>` focused on the grammar topic.
+3. **Exercise 3 (Personal Response):** Questions followed by 3 `<hr class="writing-line">` each.
+4. **Exercise 4 (Dictation):** Numerated fill-in-the-blanks using `<span class="inline-blank"></span>` synchronized with the teacher's transcript.
+5. **Exercise 5 (Sentence Scramble):** Reorder words to form correct sentences using `<hr class="writing-line">`.
 6. **Exercise 6 (Conversation):** Verbal-only task using specific slangs or abbreviations.
-7. **Exercise 7 (Reading Comprehension):** Short text (100-150 words) with 5 comprehension questions.
+7. **Exercise 7 (Reading Comprehension):** Short text (100-150 words) with 5 comprehension questions using `<hr class="writing-line">`.
 
 ---
 
@@ -87,8 +89,13 @@ Each lesson must follow this hierarchy:
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body { font-size: 12pt; color: #212529; }
-        .dots { color: #6c757d; }
-        .writing-lines { line-height: 2.5; color: #dee2e6; border-bottom: 1px solid #dee2e6; display: block; min-height: 1.5em; }
+        @media print {
+            @page { margin: 0; }
+            body { padding: 2cm !important; margin: 0 !important; }
+            .container { width: 100%; max-width: none; border: none; box-shadow: none; padding: 0 !important; }
+        }
+        .writing-line { border: 0; border-bottom: 1px solid #dee2e6; margin: 3rem 0 0.5rem 0; }
+        .inline-blank { display: inline-block; min-width: 120px; border-bottom: 1px solid #212529; margin: 0 5px; vertical-align: bottom; }
     </style>
 </head>
 <body class="bg-light py-4">

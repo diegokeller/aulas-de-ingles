@@ -91,7 +91,7 @@ Each lesson must follow this hierarchy:
         body { font-size: 12pt; color: #212529; }
         @media print {
             @page { margin: 0; }
-            body { padding: 2cm !important; margin: 0 !important; }
+            body { padding: 1cm !important; margin: 0 !important; }
             .container { width: 100%; max-width: none; border: none; box-shadow: none; padding: 0 !important; }
         }
         .writing-line { border: 0; border-bottom: 1px solid #dee2e6; margin: 3rem 0 0.5rem 0; }

@@ -14,6 +14,7 @@ This document tracks the grammar concepts covered in the English lessons and pro
 | **Word Order (Adverbs)** | Lesson 3 | ✅ Learned | Before main verb, after verb "to be". |
 | **Do vs. Make** | Lesson 3 | ✅ Learned | Difference between action/process and creation/result. |
 | **Modals for Requests** | Lesson 4 | ✅ Learned | Using "Can", "Could", and "Would" for polite requests. |
+| **Quantifiers (Some, Any, Much, Many)** | Lesson 5 | ✅ Learned | Used for indicating quantities with countable and uncountable nouns in a work context. |
 
 ## Future Suggestions (Intermediate Level)
 
@@ -23,10 +24,9 @@ This document tracks the grammar concepts covered in the English lessons and pro
 | **Comparative & Superlative** | Comparing cities/hotels/food | High |
 | **Past Simple (Regular/Irregular)** | Talking about last vacation/weekend | High |
 | **Present Perfect (Experience)** | "Have you ever...?" (Travel/Food) | Medium |
-| **Quantifiers (Some, Any, Much, Many)** | Food / Shopping / Money | Medium |
 | **First Conditional** | Environment / Plans / Possibilities | Medium |
 | **Gerund vs. Infinitive** | Hobbies / Preferences (Like/Hate) | Low |
 | **Used to** | Past habits vs. Present | Low |
 
 ---
-*Last Updated: 2026-02-18*
+*Last Updated: 2026-02-27*

@@ -1,3 +1,4 @@
 - [x] Idioms and slangs
 - [ ] Travel and conversations with locals
 - [x] home routines
+- [ ] Shopping and Money

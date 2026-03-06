@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6: Shopping and Sales</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-size: 12pt;
+            color: #212529;
+        }
+        @media print {
+            .no-print { display: none; }
+            @page { margin: 0; }
+            body { padding: 1cm !important; margin: 0 !important; }
+            .container { width: 100%; max-width: none; border: none; box-shadow: none; padding: 0 !important; }
+        }
+        .writing-line {
+            border: 0;
+            border-bottom: 1px solid #dee2e6;
+            margin: 3rem 0 0.5rem 0;
+        }
+        .inline-blank {
+            display: inline-block;
+            min-width: 120px;
+            border-bottom: 1px solid #212529;
+            margin: 0 5px;
+            vertical-align: bottom;
+        }
+        .table th {
+            background-color: #f8f9fa !important;
+        }
+    </style>
+</head>
+<body class="bg-light py-4">
+    <div class="container bg-white p-5 shadow-sm">
+        <h1 class="text-center mb-4 border-bottom pb-2">Lesson 6: Shopping and Sales</h1>
+
+        <div class="alert alert-secondary mb-4">
+            <h2 class="h5">Goals</h2>
+            <ul class="mb-0">
+                <li>Aprender o <strong>vocabulary</strong> essencial para compras, descontos e métodos de pagamento.</li>
+                <li>Praticar o uso de <strong>comparatives</strong> e <strong>superlatives</strong> para comparar preços e qualidade de produtos.</li>
+                <li>Desenvolver habilidades de conversação para lidar com situações reais em lojas.</li>
+            </ul>
+        </div>
+
+        <h2 class="h4 mt-4 border-bottom pb-1">Vocabulary</h2>
+        <table class="table table-bordered align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th style="width: 25%;">English Term</th>
+                    <th style="width: 25%;">Português</th>
+                    <th>Example Sentence</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>Bargain</strong></td><td></td><td class="text-muted small">Something bought for much less than its usual price. <br><span class="fst-italic">That designer jacket was a real bargain at 50% off.</span></td></tr>
+                <tr><td><strong>Clearance</strong></td><td></td><td class="text-muted small">A sale where items are sold at low prices to get rid of stock. <br><span class="fst-italic">The store is having a clearance sale to make room for new stock.</span></td></tr>
+                <tr><td><strong>Discount</strong></td><td></td><td class="text-muted small">A reduction in the usual price of something. <br><span class="fst-italic">Students can get a 10% discount on all books.</span></td></tr>
+                <tr><td><strong>Receipt</strong></td><td></td><td class="text-muted small">A piece of paper that proves you have paid for something. <br><span class="fst-italic">Always keep your receipt in case you need to return something.</span></td></tr>
+                <tr><td><strong>Refund</strong></td><td></td><td class="text-muted small">Money given back to you because you are not satisfied with a product. <br><span class="fst-italic">I'm not happy with this phone, I'd like a full refund.</span></td></tr>
+                <tr><td><strong>To afford</strong></td><td></td><td class="text-muted small">To have enough money to be able to buy or do something. <br><span class="fst-italic">I really like that car, but I can't afford it right now.</span></td></tr>
+                <tr><td><strong>To browse</strong></td><td></td><td class="text-muted small">To look at things in a shop without a definite intention of buying. <br><span class="fst-italic">I'm just browsing, thank you. I don't need any help yet.</span></td></tr>
+                <tr><td><strong>To purchase</strong></td><td></td><td class="text-muted small">The act of buying something (formal). <br><span class="fst-italic">You can purchase tickets online or at the counter.</span></td></tr>
+                <tr><td><strong>Checkout</strong></td><td></td><td class="text-muted small">The place in a shop where you pay for your goods. <br><span class="fst-italic">The line at the checkout was very long this morning.</span></td></tr>
+                <tr><td><strong>Price tag</strong></td><td></td><td class="text-muted small">A label on an item that shows how much it costs. <br><span class="fst-italic">I couldn't find the price tag on this blue shirt.</span></td></tr>
+                <tr><td><strong>Window shopping</strong></td><td></td><td class="text-muted small">The activity of looking at items in shop windows without buying them. <br><span class="fst-italic">We don't have much money, so we just went window shopping.</span></td></tr>
+                <tr><td><strong>To exchange</strong></td><td></td><td class="text-muted small">To give something back to a shop and get something else instead. <br><span class="fst-italic">Can I exchange this medium sweater for a large one?</span></td></tr>
+                <tr><td><strong>On sale</strong></td><td></td><td class="text-muted small">Available to be bought at a lower price than usual. <br><span class="fst-italic">Are these running shoes on sale, or are they full price?</span></td></tr>
+                <tr><td><strong>Brand</strong></td><td></td><td class="text-muted small">A product or group of products made by a particular company. <br><span class="fst-italic">What's your favorite brand of coffee?</span></td></tr>
+                <tr><td><strong>Shopping mall</strong></td><td></td><td class="text-muted small">A large enclosed area containing many different shops. <br><span class="fst-italic">Let's meet at the shopping mall near the station.</span></td></tr>
+            </tbody>
+        </table>
+
+        <div class="mt-4">
+            <h2 class="h4 border-bottom pb-1">Disambiguation</h2>
+            <table class="table table-bordered">
+                <thead class="table-light">
+                    <tr><th style="width: 25%;">Term</th><th>Explanation and Examples</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>To Buy</strong> vs. <strong>To Purchase</strong></td>
+                        <td><strong>To buy</strong> is more common/informal for daily items. <strong>To purchase</strong> is more formal, often used in business or for expensive items.<br><span class="small text-muted fst-italic">Ex: I need to buy some milk. / The company purchased a new building.</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cash</strong> vs. <strong>Change</strong></td>
+                        <td><strong>Cash</strong> refers to physical money (bills/coins). <strong>Change</strong> is the money you get back when you pay with more than the price.<br><span class="small text-muted fst-italic">Ex: Do you have any cash? / Here is your change, sir.</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="mt-4">
+            <h2 class="h4 border-bottom pb-1">Slangs and Idioms</h2>
+            <table class="table table-bordered">
+                <thead class="table-light">
+                    <tr><th style="width: 25%;">Slang / Idiom</th><th>Meaning and Example</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>To cost an arm and a leg</strong></td>
+                        <td>To be very expensive.<br><span class="small text-muted fst-italic">Example: That new smartphone costs an arm and a leg!</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>To rip someone off</strong></td>
+                        <td>To overcharge someone or sell something of poor quality.<br><span class="small text-muted fst-italic">Example: $10 for a bottle of water? They are ripping us off!</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Shopaholic</strong></td>
+                        <td>A person who loves shopping very much and does it frequently.<br><span class="small text-muted fst-italic">Example: My sister is a total shopaholic; she goes to the mall every day.</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>A steal</strong></td>
+                        <td>Something that is very cheap or a great bargain.<br><span class="small text-muted fst-italic">Example: At only $5, this book is a steal!</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="mt-4">
+            <h2 class="h4 border-bottom pb-1">Famous Abbreviations</h2>
+            <table class="table table-bordered table-sm">
+                <thead class="table-light">
+                    <tr><th style="width: 25%;">Abbreviation</th><th>Meaning</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>BOGOF</strong></td><td>Buy One Get One Free (Compre um e leve outro grátis).</td></tr>
+                    <tr><td><strong>VAT</strong></td><td>Value Added Tax (Imposto sobre valor agregado).</td></tr>
+                    <tr><td><strong>POS</strong></td><td>Point of Sale (Ponto de venda/caixa).</td></tr>
+                    <tr><td><strong>PR</strong></td><td>Price (Preço).</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="my-5 p-4 border rounded shadow-sm bg-light">
+            <h2 class="h4 border-bottom pb-1">Grammar: Comparatives and Superlatives</h2>
+            
+            <div class="mb-4">
+                <h3 class="h5 text-primary">1. Comparatives (Comparativos)</h3>
+                <p>Usamos o <strong>comparative</strong> para comparar duas coisas, pessoas ou lugares. A estrutura básica é:</p>
+                <div class="bg-white p-2 border rounded mb-3 text-center">
+                    [Item A]<sup>1</sup> + [Verb]<sup>2</sup> + <strong>[Comparative Adjective]<sup>3</sup></strong> + <strong>than<sup>4</sup></strong> + [Item B]<sup>5</sup>
+                </div>
+                <ul>
+                    <li><strong>Adjetivos Curtos (1 sílaba):</strong> Adicionamos <strong>-er</strong>.<br>
+                        <span class="text-muted small fst-italic">Example: [This shirt]<sup>1</sup> [is]<sup>2</sup> <strong>cheaper<sup>3</sup></strong> <strong>than<sup>4</sup></strong> [that one]<sup>5</sup>.</span>
+                    </li>
+                    <li><strong>Terminados em -y:</strong> Trocamos o -y por <strong>-ier</strong>.<br>
+                        <span class="text-muted small fst-italic">Example: [Online shopping]<sup>1</sup> [is]<sup>2</sup> <strong>easier<sup>3</sup></strong> <strong>than<sup>4</sup></strong> [going to the mall]<sup>5</sup>.</span>
+                    </li>
+                    <li><strong>Adjetivos Longos (2+ sílabas):</strong> Usamos <strong>more</strong> antes do adjetivo.<br>
+                        <span class="text-muted small fst-italic">Example: [This watch]<sup>1</sup> [is]<sup>2</sup> <strong>more expensive<sup>3</sup></strong> <strong>than<sup>4</sup></strong> [my old one]<sup>5</sup>.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-4">
+                <h3 class="h5 text-primary">2. Superlatives (Superlativos)</h3>
+                <p>Usamos o <strong>superlative</strong> para destacar uma característica extrema dentro de um grupo. A estrutura básica sempre usa o artigo <strong>the</strong>:</p>
+                <div class="bg-white p-2 border rounded mb-3 text-center">
+                    [Subject]<sup>1</sup> + [Verb]<sup>2</sup> + <strong>the<sup>3</sup></strong> + <strong>[Superlative Adjective]<sup>4</sup></strong> + [Group/Place]<sup>5</sup>
+                </div>
+                <ul>
+                    <li><strong>Adjetivos Curtos (1 sílaba):</strong> Adicionamos <strong>-est</strong>.<br>
+                        <span class="text-muted small fst-italic">Example: [This]<sup>1</sup> [is]<sup>2</sup> <strong>the<sup>3</sup></strong> <strong>cheapest<sup>4</sup></strong> [store in the city]<sup>5</sup>.</span>
+                    </li>
+                    <li><strong>Terminados em -y:</strong> Trocamos o -y por <strong>-iest</strong>.<br>
+                        <span class="text-muted small fst-italic">Example: [Friday]<sup>1</sup> [is]<sup>2</sup> <strong>the<sup>3</sup></strong> <strong>busiest<sup>4</sup></strong> [day for shopping]<sup>5</sup>.</span>
+                    </li>
+                    <li><strong>Adjetivos Longos (2+ sílabas):</strong> Usamos <strong>the most</strong> antes do adjetivo.<br>
+                        <span class="text-muted small fst-italic">Example: [This]<sup>1</sup> [is]<sup>2</sup> <strong>the<sup>3</sup></strong> <strong>most beautiful<sup>4</sup></strong> [dress in the shop]<sup>5</sup>.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-0">
+                <h3 class="h5 text-danger">3. Irregular Adjectives</h3>
+                <p>Alguns adjetivos não seguem as regras acima e mudam completamente:</p>
+                <table class="table table-sm table-bordered bg-white">
+                    <thead class="table-light">
+                        <tr><th>Adjective</th><th>Comparative</th><th>Superlative</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Good</strong> (Bom)</td><td>Better than</td><td>The best</td></tr>
+                        <tr><td><strong>Bad</strong> (Mau)</td><td>Worse than</td><td>The worst</td></tr>
+                        <tr><td><strong>Far</strong> (Longe)</td><td>Farther/Further than</td><td>The farthest/furthest</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h2 class="h4 mt-5 border-bottom pb-1">Exercises</h2>
+
+        <h3 class="h5 mt-3">Exercise 1: Vocabulary Selection</h3>
+        <p>Escolha a palavra correta da lista abaixo para cada descrição.</p>
+        <div class="text-center fw-bold p-2 bg-light border mb-3">
+            Bargain, Refund, Checkout, To afford, Receipt, Brand, Shopaholic, On sale
+        </div>
+        <table class="table table-bordered align-middle text-center">
+            <tbody>
+                <tr><td style="width: 30%; height: 40px;"></td><td class="text-start">A piece of paper that proves you paid for something.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">Something bought for much less than its usual price.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">A person who is addicted to shopping.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">Money given back to you because you returned a product.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">To have enough money to buy something.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">The place in a store where you pay for your goods.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">Available at a reduced price.</td></tr>
+                <tr><td style="height: 40px;"></td><td class="text-start">A product made by a particular company.</td></tr>
+            </tbody>
+        </table>
+
+        <h3 class="h5 mt-4">Exercise 2: Regular Comparatives & Superlatives</h3>
+        <p>Complete as frases usando a forma correta do adjetivo (regras de -er/-est ou more/most).</p>
+        <ol class="list-group list-group-numbered list-group-flush">
+            <li class="list-group-item">The red shoes are <span class="inline-blank"></span> (expensive) than the blue ones.</li>
+            <li class="list-group-item">This is <span class="inline-blank"></span> (large) shopping mall in the city.</li>
+            <li class="list-group-item">My new laptop is <span class="inline-blank"></span> (fast) than my old one.</li>
+            <li class="list-group-item">Shopping online is <span class="inline-blank"></span> (easy) than going to the store.</li>
+            <li class="list-group-item">This watch is <span class="inline-blank"></span> (cheap) item in the store.</li>
+        </ol>
+
+        <h3 class="h5 mt-4">Exercise 3: Irregular Adjectives</h3>
+        <p>Complete as frases usando as formas irregulares (better, best, worse, worst).</p>
+        <ol class="list-group list-group-numbered list-group-flush">
+            <li class="list-group-item">This store has <span class="inline-blank"></span> (good) customer service of all.</li>
+            <li class="list-group-item">The weather today is <span class="inline-blank"></span> (bad) than it was yesterday.</li>
+            <li class="list-group-item">This is <span class="inline-blank"></span> (good) bargain I have ever found!</li>
+            <li class="list-group-item">I think buying cheap electronics is the <span class="inline-blank"></span> (bad) idea.</li>
+        </ol>
+
+        <h3 class="h5 mt-5">Exercise 4: Dictation</h3>
+        <p><em>"Listen to the audio provided by your teacher and fill in the blanks with the words you learned."</em></p>
+        <div class="lh-lg">
+            <p><strong>1.</strong> This <span class="inline-blank"></span> is <span class="inline-blank"></span> than the others.</p>
+            <p><strong>2.</strong> I found a great <span class="inline-blank"></span> at the <span class="inline-blank"></span> sale.</p>
+            <p><strong>3.</strong> Can I get a <span class="inline-blank"></span> if I don't have the <span class="inline-blank"></span>?</p>
+            <p><strong>4.</strong> I can't <span class="inline-blank"></span> to buy this dress; it costs <span class="inline-blank"></span>.</p>
+        </div>
+
+        <h3 class="h5 mt-5">Exercise 5: Personal Response</h3>
+        <div class="mb-3">
+            <p><strong>1. Which is your favorite brand and why?</strong></p>
+            <hr class="writing-line"><hr class="writing-line"><hr class="writing-line">
+        </div>
+        <div class="mb-3">
+            <p><strong>2. Do you prefer to shop online or in person? Why?</strong></p>
+            <hr class="writing-line"><hr class="writing-line"><hr class="writing-line">
+        </div>
+        <div class="mb-3">
+            <p><strong>3. What was the best bargain you have ever found?</strong></p>
+            <hr class="writing-line"><hr class="writing-line"><hr class="writing-line">
+        </div>
+
+        <h3 class="h5 mt-5">Exercise 6: Sentence Scramble</h3>
+        <p>Coloque as palavras em ordem para formar frases corretas.</p>
+        <div class="mb-3">
+            <p><strong>1.</strong> expensive / This / more / than / watch / is / that / one / .</p>
+            <hr class="writing-line">
+        </div>
+        <div class="mb-3">
+            <p><strong>2.</strong> mall / the / biggest / city / is / This / the / in / .</p>
+            <hr class="writing-line">
+        </div>
+        <div class="mb-3">
+            <p><strong>3.</strong> bargain / found / a / I / great / yesterday / .</p>
+            <hr class="writing-line">
+        </div>
+
+        <h3 class="h5 mt-5">Exercise 7: Conversation Prompt</h3>
+        <p>In pairs, role-play a situation where one student is a <strong>Customer</strong> and the other is the <strong>Store Assistant</strong>. Choose one of the goals below and try to use at least one slang or idiom.</p>
+        
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="p-3 border rounded bg-light">
+                    <strong>Goal 1: The Refund</strong><br>
+                    <small>You bought a laptop that is not working. You want your money back (a full refund).</small>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3 border rounded bg-light">
+                    <strong>Goal 2: The Exchange</strong><br>
+                    <small>You bought a pair of shoes as a gift, but they are too small. You want to exchange them for a larger size.</small>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3 border rounded bg-light">
+                    <strong>Goal 3: The Bargain Hunter</strong><br>
+                    <small>You found a jacket without a price tag. Ask the assistant if it is on sale or if you can get a discount.</small>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3 border rounded bg-light">
+                    <strong>Goal 4: The Wrong Item</strong><br>
+                    <small>You purchased a specific brand of headphones online, but you received a cheaper one. Explain the problem.</small>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="h4 mt-5 border-bottom pb-1" style="page-break-before: always;">Exercise 8: Reading Comprehension</h2>
+        <div class="p-4 border rounded bg-light mb-4">
+            <h4 class="h5 text-center">The Big Summer Sale</h4>
+            <p class="mb-0">Last Saturday, Julia went to the <strong>shopping mall</strong> because there was a big summer <strong>clearance</strong> sale. She visited three different stores to compare prices and styles. In the first store, she found a beautiful silk dress, but it was <strong>the most expensive</strong> one she saw. It <strong>cost an arm and a leg</strong>, so she decided to keep <strong>browsing</strong>. In the second store, the dresses were <strong>cheaper than</strong> in the first one, but the quality wasn't very good. Finally, in the third store, Julia found <strong>a steal</strong>: a designer dress that was 70% <strong>on sale</strong>! It was <strong>the best bargain</strong> of the day. She went to the <strong>checkout</strong>, paid in <strong>cash</strong>, and made sure to get her <strong>receipt</strong>. Julia was very happy because she couldn't <strong>afford</strong> the full price, but with the <strong>discount</strong>, she bought a high-quality <strong>brand</strong> for a low price. She is definitely not a <strong>shopaholic</strong>, but she loves a good deal!</p>
+        </div>
+
+        <div class="mb-4">
+            <p><strong>1. Why did Julia go to the shopping mall last Saturday?</strong></p>
+            <hr class="writing-line">
+        </div>
+        <div class="mb-4">
+            <p><strong>2. Why didn't Julia buy the dress in the first store?</strong></p>
+            <hr class="writing-line">
+        </div>
+        <div class="mb-4">
+            <p><strong>3. How was the quality of the dresses in the second store compared to the first one?</strong></p>
+            <hr class="writing-line">
+        </div>
+        <div class="mb-4">
+            <p><strong>4. What does the text mean when it says Julia found "a steal" in the third store?</strong></p>
+            <hr class="writing-line">
+        </div>
+        <div class="mb-4">
+            <p><strong>5. What did Julia do at the checkout to ensure she could return the dress if necessary?</strong></p>
+            <hr class="writing-line">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,4 +1,19 @@
 - [x] Idioms and slangs
 - [ ] Travel and conversations with locals
 - [x] home routines
-- [ ] Shopping and Money
+- [x] Shopping and Money
+- [ ] Health & Medical Appointments (At the doctor’s office, pharmacy)
+- [ ] Dining Out (Reservations, ordering food, complaining, splitting the bill)
+- [ ] Transport & Directions (Asking for help, public transportation, getting lost)
+- [ ] Real Estate & Housing (Renting, reporting problems, describing home)
+- [ ] Socializing & Networking (Small talk, making introductions, invitations)
+- [ ] Emergency Situations (Reporting theft, accidents, lost items)
+- [ ] Job Interviews (Strengths/weaknesses, background, company culture)
+- [ ] Banking & Finance (Opening accounts, credit cards, exchange rates)
+- [ ] Beauty & Grooming (At the hair salon/barber, giving instructions)
+- [ ] Technical Support (Reporting bugs, troubleshooting, hardware/software)
+- [ ] Education & Learning (Enrolling, talking to teachers, group projects)
+- [ ] Airport & Customs (Check-in, immigration, delayed luggage)
+- [ ] Celebrations & Planning (Surprise parties, traditions, gifts)
+- [ ] City Life & Sightseeing (City tours, museums, recommendations)
+- [ ] The Post Office (Sending packages, shipping methods, stamps)

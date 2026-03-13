@@ -35,7 +35,7 @@ When generating a new lesson, follow this sequence. **Update the lesson HTML fil
 - **Slangs & Idioms:** 3-4 relevant expressions with example sentences.
 - **Abbreviations:** 4-6 acronyms related to the theme.
 - **Exercise 5 (Dictation):** Numerated fill-in-the-blanks using `<span class="inline-blank"></span>` (often using slangs).
-- **Exercise 6 (Conversation):** Verbal-only task using slangs or abbreviations.
+- **Exercise 6 (Conversation):** Verbal-only task with at least **4 specific situational scenarios** (e.g., "At the pharmacy", "Talking to a colleague") using slangs, idioms, or abbreviations.
 - **Action:** Update the HTML file with this section.
 
 ### Step 5: Reading & Finalization

@@ -7,45 +7,44 @@ description: Generates professional English lesson materials for intermediate Br
 
 This skill guides the creation of high-quality, print-optimized English lessons for intermediate (B1-B2) students who are native Brazilian Portuguese speakers.
 
-## Workflow (Multi-Step Generation)
+## Workflow (Interleaved Dynamic Generation)
 
-When generating a new lesson, follow this sequence and **stop for human review after each step**.
+When generating a new lesson, follow this sequence. **Update the lesson HTML file at each step** to allow for immediate review of the layout and content.
 
 ### Step 1: Lesson Outline & Alignment
-- **Theme:** Identify a relevant topic (e.g., Food, Health, Shopping).
+- **Theme:** Identify a relevant situational topic.
 - **Grammar Topic:** Select a grammar focus.
 - **Goals:** 2-3 specific objectives in Portuguese with English key terms.
-- **Approval:** Request user confirmation before proceeding.
+- **Approval:** Request user confirmation before starting the file.
 
-### Step 2: Core Content Development
-- **Vocabulary:** 15-25 terms in a single-column table (Term, Empty Translation Column, Example Sentence).
-- **Disambiguation:** Compare 1-2 confusing terms (e.g., *Job* vs. *Work*).
-- **False Friends:** Include 2-3 terms that look/sound like Portuguese but have different meanings (e.g., *Parents* vs. *Parentes*).
+### Step 2: Vocabulary & Foundation (Initial File Creation)
+- **Vocabulary:** 15-25 terms in a table (Term, Empty Translation, Example).
+- **Disambiguation:** Compare 1-2 confusing terms.
+- **False Friends:** 2-3 terms that look like Portuguese but have different meanings.
+- **Exercise 1 (Vocabulary Matching):** Match terms from the table to descriptions.
+- **Exercise 2 (Contextual Practice):** Focus on False Friends or Disambiguation.
+- **Action:** Create the HTML file (`aula-X-[topic].html`) with Header, Goals, and this content.
+
+### Step 3: Grammar Topic & Practical Application
+- **Grammar Explanation:** Portuguese explanation with an English pattern table.
+- **Exercise 3 (Grammar Focus):** Fill-in-the-blanks using `<span class="inline-blank"></span>`.
+- **Exercise 4 (Personal Response):** Questions followed by 3 `<hr class="writing-line">` each.
+- **Action:** Update the HTML file with this section.
+
+### Step 4: Fluency, Slangs & Oral Practice
 - **Slangs & Idioms:** 3-4 relevant expressions with example sentences.
 - **Abbreviations:** 4-6 acronyms related to the theme.
-- **Approval:** Request user confirmation.
+- **Exercise 5 (Dictation):** Numerated fill-in-the-blanks using `<span class="inline-blank"></span>` (often using slangs).
+- **Exercise 6 (Conversation):** Verbal-only task using slangs or abbreviations.
+- **Action:** Update the HTML file with this section.
 
-### Step 3: Grammar & Exercises
-- **Grammar Explanation:** Portuguese explanation with an English pattern table.
-- **Exercise Sequence (Mandatory):**
-    1. **Exercise 1 (Vocabulary Selection):** Word bank matching terms to descriptions.
-    2. **Exercise 2 (Grammar Practice):** Fill-in-the-blanks using `<span class="inline-blank"></span>` focused on grammar.
-    3. **Exercise 3 (Personal Response):** Questions followed by 3 `<hr class="writing-line">` each.
-    4. **Exercise 4 (Dictation):** Numerated fill-in-the-blanks using `<span class="inline-blank"></span>`.
-    5. **Exercise 5 (Sentence Scramble):** Reorder words using `<hr class="writing-line">`.
-    6. **Exercise 6 (Conversation):** Verbal-only task using slangs or abbreviations.
-- **Approval:** Request user confirmation.
-
-### Step 4: Reading & Comprehension
+### Step 5: Reading & Finalization
 - **Exercise 7 (Reading Comprehension):**
-    - **Text:** 100-150 words story using the theme's vocabulary and grammar.
+    - **Text:** 100-150 words story integrating all previous concepts.
     - **Questions:** 5 comprehension questions using `<hr class="writing-line">`.
-- **Approval:** Request user confirmation.
-
-### Step 5: Final Assembly & Answer Key
-- **HTML Production:** Populate `assets/lesson-template.html` (see template below).
-- **File Naming:** `aula-[number]-[topic-in-portuguese].html`.
-- **Answer Key:** Create `aula-[number]-[topic]-answers.html` with full question text, audio transcripts for dictation, and expected answers.
+- **Answer Key (MANDATORY):** Create or update `aula-X-[topic]-answers.html`.
+    - **Note:** The answer key MUST be synchronized with every change made to the lesson file, including updated vocabulary, exercise numbering, and content.
+- **Action:** Perform final update to the lesson file and generate/update the answer key.
 
 ## Technical Standards
 
@@ -53,19 +52,14 @@ When generating a new lesson, follow this sequence and **stop for human review a
 - **Styling:** 
   - CDN: `https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css`
   - Font size: **12pt** for A4 paper.
-  - Colors: Bootstrap defaults (text-dark, bg-light, etc.).
 - **Print Optimization:** 
   - Use `<hr class="writing-line">` for multi-line spaces.
   - Use `<span class="inline-blank"></span>` for inline blanks.
   - **NEVER** use dots (`....`).
-  - Ensure tables/sections do not break awkwardly across pages.
-
-## Language & Style Guidelines
-- **Language Balance:** Instructions and explanations in Portuguese; Vocabulary and exercises in English.
+- **Language Balance:** Instructions/explanations in Portuguese; Content/exercises in English.
 - **Formatting:** Key terms in **bold**; Example sentences in *italics*.
-- **Consistency:** All exercises must be numbered sequentially (1 to 7).
 
-## HTML Template
+## HTML Template Structure
 
 ```html
 <!DOCTYPE html>
@@ -88,7 +82,7 @@ When generating a new lesson, follow this sequence and **stop for human review a
 <body class="bg-light py-4">
     <div class="container bg-white p-5 shadow-sm">
         <h1 class="text-center mb-4 border-bottom pb-2">Lesson X: Topic</h1>
-        <!-- Content follows the Workflow -->
+        <!-- Interleaved Content Sections -->
     </div>
 </body>
 </html>

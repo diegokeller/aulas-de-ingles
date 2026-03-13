@@ -15,6 +15,8 @@ This document tracks the grammar concepts covered in the English lessons and pro
 | **Do vs. Make** | Lesson 3 | ✅ Learned | Difference between action/process and creation/result. |
 | **Modals for Requests** | Lesson 4 | ✅ Learned | Using "Can", "Could", and "Would" for polite requests. |
 | **Quantifiers (Some, Any, Much, Many)** | Lesson 5 | ✅ Learned | Used for indicating quantities with countable and uncountable nouns in a work context. |
+| **Comparatives & Superlatives** | Lesson 6 | ✅ Learned | Comparing prices, quality, and products in a shopping context. |
+| **Modals for Advice & Necessity (Should, Must, Have to)** | Lesson 7 | ✅ Learned | Used for health advice, medical rules, and strong obligations. |
 
 ## Future Suggestions (Intermediate Level)
 

@@ -21,21 +21,21 @@ When generating a new lesson, follow this sequence. **Update the lesson HTML fil
 - **Vocabulary:** 15-25 terms in a table (Term, Empty Translation, Example).
 - **Disambiguation:** Compare 1-2 confusing terms.
 - **False Friends:** 2-3 terms that look like Portuguese but have different meanings.
-- **Exercise 1 (Vocabulary Matching):** Match terms from the table to descriptions.
-- **Exercise 2 (Contextual Practice):** Focus on False Friends or Disambiguation.
-- **Action:** Create the HTML file (`aula-X-[topic].html`) with Header, Goals, and this content.
+- **Exercise 1 (Vocabulary Matching):** 7-8 terms from the table matched to descriptions.
+- **Exercise 2 (True or False):** 4 sentences (exactly 2 True / 2 False) focused on False Friends or Disambiguation.
+- **Action:** Create the HTML file (`aula-X-[topic].html`) with Header, Goals, and this interleaved content.
 
 ### Step 3: Grammar Topic & Practical Application
 - **Grammar Explanation:** Portuguese explanation with an English pattern table.
-- **Exercise 3 (Grammar Focus):** Fill-in-the-blanks using `<span class="inline-blank"></span>`.
-- **Exercise 4 (Personal Response):** Questions followed by 3 `<hr class="writing-line">` each.
+- **Exercise 3 (Grammar Focus):** 8 fill-in-the-blank sentences using `<span class="inline-blank"></span>`. Use `mb-3` for line spacing.
 - **Action:** Update the HTML file with this section.
 
 ### Step 4: Fluency, Slangs & Oral Practice
 - **Slangs & Idioms:** 3-4 relevant expressions with example sentences.
 - **Abbreviations:** 4-6 acronyms related to the theme.
-- **Exercise 5 (Dictation):** Numerated fill-in-the-blanks using `<span class="inline-blank"></span>` (often using slangs).
-- **Exercise 6 (Conversation):** Verbal-only task with at least **4 specific situational scenarios** (e.g., "At the pharmacy", "Talking to a colleague") using slangs, idioms, or abbreviations.
+- **Exercise 4 (Personal Response):** 2 questions using slangs/idioms followed by 3 `<hr class="writing-line">` each.
+- **Exercise 5 (Dictation):** 3 elaborate sentences with **two spread-out blanks** each.
+- **Exercise 6 (Conversation):** Verbal-only task with at least **4 specific situational scenarios** (e.g., "At the pharmacy", "Talking to a colleague").
 - **Action:** Update the HTML file with this section.
 
 ### Step 5: Reading & Finalization
@@ -43,8 +43,8 @@ When generating a new lesson, follow this sequence. **Update the lesson HTML fil
     - **Text:** 100-150 words story integrating all previous concepts.
     - **Questions:** 5 comprehension questions using `<hr class="writing-line">`.
 - **Answer Key (MANDATORY):** Create or update `aula-X-[topic]-answers.html`.
-    - **Note:** The answer key MUST be synchronized with every change made to the lesson file, including updated vocabulary, exercise numbering, and content.
-- **Action:** Perform final update to the lesson file and generate/update the answer key.
+    - **Note:** The answer key MUST be synchronized with every change made to the lesson file.
+- **Action:** Final update to the lesson file and generate/update the answer key.
 
 ## Technical Standards
 
@@ -55,9 +55,9 @@ When generating a new lesson, follow this sequence. **Update the lesson HTML fil
 - **Print Optimization:** 
   - Use `<hr class="writing-line">` for multi-line spaces.
   - Use `<span class="inline-blank"></span>` for inline blanks.
-  - **NEVER** use dots (`....`).
+  - **NEVER** use dots (`....`) or Markdown bolding (`**`). Always use `<strong>`.
 - **Language Balance:** Instructions/explanations in Portuguese; Content/exercises in English.
-- **Formatting:** Key terms in **bold**; Example sentences in *italics*.
+- **Formatting:** Key terms in **bold** (`<strong>`); Example sentences in *italics*.
 
 ## HTML Template Structure
 

@@ -17,6 +17,7 @@ This document tracks the grammar concepts covered in the English lessons and pro
 | **Quantifiers (Some, Any, Much, Many)** | Lesson 5 | ✅ Learned | Used for indicating quantities with countable and uncountable nouns in a work context. |
 | **Comparatives & Superlatives** | Lesson 6 | ✅ Learned | Comparing prices, quality, and products in a shopping context. |
 | **Modals for Advice & Necessity (Should, Must, Have to)** | Lesson 7 | ✅ Learned | Used for health advice, medical rules, and strong obligations. |
+| **Present Perfect (Experience)** | Lesson 8 | ✅ Learned | "Have you ever...?", "I have been to...", talking about life experiences without a specific time. |
 
 ## Future Suggestions (Intermediate Level)
 
@@ -25,10 +26,9 @@ This document tracks the grammar concepts covered in the English lessons and pro
 | **Present Continuous for Future** | Travel plans / Arrangements | High |
 | **Comparative & Superlative** | Comparing cities/hotels/food | High |
 | **Past Simple (Regular/Irregular)** | Talking about last vacation/weekend | High |
-| **Present Perfect (Experience)** | "Have you ever...?" (Travel/Food) | Medium |
 | **First Conditional** | Environment / Plans / Possibilities | Medium |
 | **Gerund vs. Infinitive** | Hobbies / Preferences (Like/Hate) | Low |
 | **Used to** | Past habits vs. Present | Low |
 
 ---
-*Last Updated: 2026-02-27*
+*Last Updated: 2026-03-27*

@@ -2,11 +2,11 @@
 - [ ] Travel and conversations with locals
 - [x] home routines
 - [x] Shopping and Money
-- [ ] Health & Medical Appointments (At the doctor’s office, pharmacy)
+- [x] Health & Medical Appointments (At the doctor’s office, pharmacy)
 - [ ] Dining Out (Reservations, ordering food, complaining, splitting the bill)
 - [ ] Transport & Directions (Asking for help, public transportation, getting lost)
 - [ ] Real Estate & Housing (Renting, reporting problems, describing home)
-- [ ] Socializing & Networking (Small talk, making introductions, invitations)
+- [x] Socializing & Networking (Small talk, making introductions, invitations)
 - [ ] Emergency Situations (Reporting theft, accidents, lost items)
 - [ ] Job Interviews (Strengths/weaknesses, background, company culture)
 - [ ] Banking & Finance (Opening accounts, credit cards, exchange rates)

@@ -15,11 +15,11 @@ When generating a new lesson, follow this sequence. **Update the lesson HTML fil
 - **Theme:** Identify a relevant situational topic.
 - **Grammar Topic:** Select a grammar focus.
 - **Goals:** 2-3 specific objectives in Portuguese with English key terms.
-- **Approval:** Request user confirmation before starting the file.
+- **Approval:** If the user explicitly asked to create the lesson, proceed directly. Only stop for confirmation when the topic, grammar focus, or target format is ambiguous.
 
 ### Step 2: Vocabulary & Foundation (Initial File Creation)
 - **Vocabulary:** 15-25 terms in a table (Term, Empty Translation, Example).
-- **Disambiguation:** Compare 1-2 confusing terms.
+- **Disambiguation:** Compare 1-2 confusing terms. Prefer compact side-by-side Bootstrap cards/columns when space allows.
 - **False Friends:** 2-3 terms that look like Portuguese but have different meanings.
 - **Exercise 1 (Vocabulary Matching):** 7-8 terms from the table matched to descriptions.
 - **Exercise 2 (True or False):** 4 sentences (exactly 2 True / 2 False) focused on False Friends or Disambiguation.
@@ -31,17 +31,19 @@ When generating a new lesson, follow this sequence. **Update the lesson HTML fil
 - **Action:** Update the HTML file with this section.
 
 ### Step 4: Fluency, Slangs & Oral Practice
-- **Slangs & Idioms:** 3-4 relevant expressions with example sentences.
+- **Slangs & Idioms:** 3-4 relevant expressions with example sentences. Keep this section visually compact with reduced card padding/margins when needed for print length.
 - **Abbreviations:** 4-6 acronyms related to the theme.
-- **Exercise 4 (Personal Response):** 2 questions using slangs/idioms followed by 3 `<hr class="writing-line">` each.
+- **Exercise 4 (Personal Response):** 2 questions using slangs/idioms. If page count is tight, do not add writing lines; instead instruct students in Portuguese to answer on the back of the page.
 - **Exercise 5 (Dictation):** 3 elaborate sentences with **two spread-out blanks** each.
-- **Exercise 6 (Conversation):** Verbal-only task with at least **4 specific situational scenarios** (e.g., "At the pharmacy", "Talking to a colleague").
+- **Exercise 6 (Conversation):** Verbal-only task with at least **4 specific situational scenarios**. Describe the scenarios in **pt-BR**, not English, so students cannot simply read the prompt as support.
 - **Action:** Update the HTML file with this section.
 
 ### Step 5: Reading & Finalization
 - **Exercise 7 (Reading Comprehension):**
-    - **Text:** 100-150 words story integrating all previous concepts.
+    - **Text:** Prefer an engaging story around **180-300 words**, integrating the lesson vocabulary, grammar, and oral-practice themes.
+    - **Formatting:** In the reading text, put target vocabulary in `<strong>`. If a slang/idiom or false friend appears naturally in the story, emphasize it with `<em>`.
     - **Questions:** 5 comprehension questions using `<hr class="writing-line">`.
+- **Appendix (Recommended):** Add a quick-reference appendix when the grammar focus benefits from memorization support. For verb-focused lessons, prefer a table of **irregular verbs only**, including **Base Verb**, **Past Simple**, **Translation (PT-BR)**, and a short example. Mix lesson-context verbs with very common English verbs.
 - **Answer Key (MANDATORY):** Create or update `aula-X-[topic]-answers.html`.
     - **Note:** The answer key MUST be synchronized with every change made to the lesson file.
 - **Action:** Final update to the lesson file and generate/update the answer key.
@@ -51,10 +53,12 @@ When generating a new lesson, follow this sequence. **Update the lesson HTML fil
 - **Format:** HTML5 using **Bootstrap 5 (CDN)**.
 - **Styling:** 
   - CDN: `https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css`
-  - Font size: **12pt** for A4 paper.
+  - Font size: **11pt** for A4 paper.
 - **Print Optimization:** 
   - Use `<hr class="writing-line">` for multi-line spaces.
   - Use `<span class="inline-blank"></span>` for inline blanks.
+  - Prefer compact spacing in dense sections to keep the lesson within a practical printed page count.
+  - Avoid forced page breaks unless the user explicitly asks for them or pagination clearly requires them.
   - **NEVER** use dots (`....`) or Markdown bolding (`**`). Always use `<strong>`.
 - **Language Balance:** Instructions/explanations in Portuguese; Content/exercises in English.
 - **Formatting:** Key terms in **bold** (`<strong>`); Example sentences in *italics*.
@@ -69,7 +73,7 @@ When generating a new lesson, follow this sequence. **Update the lesson HTML fil
     <title>Lesson X: Topic</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { font-size: 12pt; color: #212529; }
+        body { font-size: 11pt; color: #212529; }
         @media print {
             @page { margin: 0; }
             body { padding: 1cm !important; margin: 0 !important; }

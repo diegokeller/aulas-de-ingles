@@ -8,7 +8,7 @@
 - [ ] Real Estate & Housing (Renting, reporting problems, describing home)
 - [x] Socializing & Networking (Small talk, making introductions, invitations)
 - [ ] Emergency Situations (Reporting theft, accidents, lost items)
-- [ ] Job Interviews (Strengths/weaknesses, background, company culture)
+- [x] Job Interviews (Strengths/weaknesses, background, company culture)
 - [ ] Banking & Finance (Opening accounts, credit cards, exchange rates)
 - [ ] Beauty & Grooming (At the hair salon/barber, giving instructions)
 - [ ] Technical Support (Reporting bugs, troubleshooting, hardware/software)
